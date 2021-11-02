@@ -17,6 +17,6 @@ Normalization of RNA-seq expression counts
 - coefficient of variation (CV)
 
 
-## Dependencies
+### Dependencies
 1. gcc 4.8+ or clang 3.4+
 2. cmake 3.2+
