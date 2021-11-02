@@ -10,8 +10,7 @@ Normalization of RNA-seq expression counts
 
 
 ### Filtering
-#### output for coexpression network construction
-#### output for housekeeping screening
+#### for coexpression network construction such as WGCNA
 
 - MADs
 - coefficient of variation (CV)
