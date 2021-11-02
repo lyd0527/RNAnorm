@@ -9,8 +9,7 @@ Normalization of RNA-seq expression counts
 - Transcript per kilobase million (TPM)
 
 
-### Filtering
-#### for coexpression network construction such as WGCNA
+### Filtering for coexpression network construction such as WGCNA
 
 - MADs
 - coefficient of variation (CV)
