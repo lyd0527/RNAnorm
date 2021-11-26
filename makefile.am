@@ -1,4 +1,3 @@
 AUTOMAKE_OPTIONS=foreign
-bin_PROGRAMS=GenDataCul
-GenDataCul_SOURCES=GenDataCul.cpp FileOperate.cpp FileOperate.h
-
+bin_PROGRAMS=RNAnorm
+RNAnorm_SOURCES=RNAnorm.cpp FileOperate.h FileOperate.cpp
