@@ -36,6 +36,16 @@ Option:
 	-m 	method: CV or MAD [CV]
 ```
 
+### Input Format
+
+```
+GeneID	Length	Sample1	Sample2	Sample3	Sample4
+g1	100	23	13	1	3
+g2	150	3	4	1	3
+g3	120	4	10	23	3
+g4	145	10	3	4	5
+```
+
 ### Examples:
 
 Count2FPKM/TPM
