@@ -21,6 +21,7 @@ Normalization of RNA-seq expression counts
 
 
 ### Quick start
+```
 Usage: RNAnorm <OPTION>
 
 Option:
@@ -34,3 +35,4 @@ Option:
 	Case1: RNAnorm -i count.input -o output_prefix
 	Case2: RNAnorm -i count.input -o output_prefix -f -v 0.01 -m CV
 	Case3: RNAnorm -i count.input -o output_prefix -f -v 0.01 -m MAD
+```
