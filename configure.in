@@ -2,25 +2,23 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([GenDataCul], [1.0], [1150621366@qq.com])
-AM_INIT_AUTOMAKE(foreign)
+AC_INIT([RNAnorm], [1.0],[1150621366@qq.com])
+AM_INIT_AUTOMAKE(RNAnorm,1.0)
 AC_CONFIG_SRCDIR([FileOperate.cpp])
 AC_CONFIG_HEADERS([config.h])
-
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
 
 # Checks for libraries.
-# FIXME: Replace `main' with a function in `-lm':
-AC_CHECK_LIB([m], [main])
+AC_CHECK_LIB([m],[main])
 
 # Checks for header files.
-AC_CHECK_HEADERS([stdlib.h])
+AC_CHECK_HEADERS([stdlib.h string.h unistd.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
-
-AC_CONFIG_FILES([makefile])
-AC_OUTPUT
+#AC_CHECK_FUNCS([pow sqrt])
+#AC_CONFIG_FILES([Makefile])
+AC_OUTPUT(Makefile)
