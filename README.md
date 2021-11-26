@@ -35,7 +35,7 @@ Option:
 	-v 	minimum threshold value of MAD or CV [0.01]
 	-m 	method: CV or MAD [CV]
 
-	Case1: RNAnorm -i count.input -o output_prefix
-	Case2: RNAnorm -i count.input -o output_prefix -f -v 0.01 -m CV
-	Case3: RNAnorm -i count.input -o output_prefix -f -v 0.01 -m MAD
+./RNAnorm -i count.input -o output_prefix
+./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m CV
+./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m MAD
 ```
