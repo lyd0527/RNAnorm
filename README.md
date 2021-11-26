@@ -20,8 +20,11 @@ Normalization of RNA-seq expression counts
 2. cmake 3.2+
 
 
-### Quick start
+### Getting start
 ```
+git clone https://github.com/lyd0527/RNAnorm.git
+cd RNAnorm; make
+
 Usage: RNAnorm <OPTION>
 
 Option:
