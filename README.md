@@ -34,7 +34,11 @@ Option:
 	-f 	filtering or not [off]
 	-v 	minimum threshold value of MAD or CV [0.01]
 	-m 	method: CV or MAD [CV]
+```
 
+Examples:
+
+```
 ./RNAnorm -i count.input -o output_prefix
 ./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m CV
 ./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m MAD
