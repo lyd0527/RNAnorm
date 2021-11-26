@@ -43,12 +43,12 @@ Count2FPKM/TPM
 ./RNAnorm -i count.input -o output_prefix
 ```
 
-Count2FPKM/TPM+Filtering(CV method)
+Count2FPKM/TPM + Filtering (CV method)
 ```
 ./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m CV
 ```
 
-Count2FPKM/TPM+Filtering(MAD method)
+Count2FPKM/TPM + Filtering (MAD method)
 ```
 ./RNAnorm -i count.input -o output_prefix -f -v 0.01 -m MAD
 ```
