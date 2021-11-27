@@ -355,7 +355,7 @@ void FileOperate::DataFilter(string srcFile, string dstFile, string op,float val
 			oss << db2;
 			string str(oss.str());
 			num[i][j] = str;
-			store[i][j]=str;
+			//store[i][j]=str;
 		}
 	}
 	std::ofstream outFile;
@@ -370,26 +370,37 @@ void FileOperate::DataFilter(string srcFile, string dstFile, string op,float val
 		{
 			if(num[i][0]=="-1")
 			{
+				cout<<"num"<<i<<"="<<"-1"<<endl;;
 				tag++;
 				size--;
 				break;
 			}
 			else
 			{
-				
+				cout<<"num"<<i<<j<<"="<<num[i][j]<<endl;
 				store[i-tag].push_back(num[i][j]);
 			}
 			
 
 		}
+		cout<<store[i-tag].size()<<endl;	
 	}
+	cout<<endl<<endl;
+	/*for(int i=0;i<size;i++)
+	{
+		for(int j=0;j<store[i].size();j++)
+		{
+			cout<<store[i][j]<<"\t";
+		}
+		cout<<endl;
+	}*/
 
 	for (int i = 0; i < size; i++)
 	{
-		for (int j = 0; j < store[i].size(); j++)
+		for (int j = 0; j < store[i].size()-23; j++)
 		{	
 	
-			outFile << store[i][j] << "\t";
+			outFile << store[i][j+23] << "\t";
 
 		}
 
